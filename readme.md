@@ -30,4 +30,5 @@ BAAS Apps
 ```
 Create react application: npx create-react-app 01basic
 -> It's take more time, and also it is a bulky utility
+--> hsel
 ```
