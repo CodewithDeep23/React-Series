@@ -5,7 +5,7 @@
     After mastering Js
     For need of complex structure.
 
-## React is a library
+## React is a librar
 
 ## Topics to learn
     core of React (State OR UI manipulation, JSX)
@@ -22,4 +22,12 @@ Class based component
     → Legacy code 💀
 BAAS Apps
     → Social media clone, e-commerce App...
+```
+
+
+
+## Start:
+```
+Create react application: npx create-react-app 01basic
+-> It's take more time, and also it is a bulky utility
 ```
