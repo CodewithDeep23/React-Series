@@ -30,5 +30,19 @@ BAAS Apps
 ```
 Create react application: npx create-react-app 01basic
 -> It's take more time, and also it is a bulky utility
---> hsel
+-> If script not run, [module not find] then install: npm install --save-dev ajv@^7
 ```
+Note: Some file are not needed in src. In 01_basic, there are only- App.js, index.js
+
+## Start with vite:
+```
+Create react app using: npm create vite@latest
+-> Project name:
+-> Select framework: React
+-> Select varient: JavaScript
+After this,
+npm install to install dependencies, because there is no node_modulus and some other dependencies
+-> npm run dev
+```
+
+We faces some error in both projects, and the solution is simple: function name(first ch) must be capitalize and, it is good to capitalize component first ch
