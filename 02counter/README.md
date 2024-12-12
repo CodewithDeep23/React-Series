@@ -1,8 +1,20 @@
-# React + Vite
+## Question on Counter:
+## output ?
+```javascript
+const [counter, setCounter] = useState(10);
+const addValue(){
+    setCounter(prevCounter => prevCounter+1);
+    setCounter(prevCounter => prevCounter+1);
+    setCounter(prevCounter => prevCounter+1);
+    setCounter(prevCounter => prevCounter+1);
+}
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+return(
+    <>
+       <p>{counter}</p>
+       <button onclick={addValue}>Add value</button>
+    </>
+)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## output: 14
+```

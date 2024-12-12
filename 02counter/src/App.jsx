@@ -11,14 +11,12 @@ function App() {
   const addValue = ()=>{
     // console.log("value", Math.floor(Math.random()*10))
     if(counter<20){
-      counter = counter+1
-      setCounter(counter)
+      setCounter(counter+1)
     }
   }
   const subValue = ()=>{
     if(counter>0){
-      counter = counter-1
-      setCounter(counter)
+      setCounter(counter-1)
     }
   }
   // Use hooks
