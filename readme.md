@@ -30,11 +30,11 @@ BAAS Apps
 ```
 Create react application: npx create-react-app 01basic
 -> It's take more time, and also it is a bulky utility
--> If script not run, [module not find] then install: npm install --save-dev ajv@^7
+-> If script not run [module not find], then install: npm install --save-dev ajv@^7
 ```
 Note: Some file are not needed in src. In 01_basic, there are only- App.js, index.js
 
-## Start with vite:
+## Start with vite: (best way)
 ```
 Create react app using: npm create vite@latest
 -> Project name:
@@ -45,4 +45,17 @@ npm install to install dependencies, because there is no node_modulus and some o
 -> npm run dev
 ```
 
-We faces some error in both projects, and the solution is simple: function name(first ch) must be capitalize and, it is good to capitalize component first ch
+We faces some error in both projects.And the solution is simple: function name(first ch) must be capitalize and, it is good to capitalize component's first char
+
+## Topic (Chai aur react with project):
+```
+1. Two react project, Using basic method and vite.
+2. React flow and structure
+3. Create your own react library and JSX
+4. Why you need hooks and project
+5. Virtual DOM, Fiber and Reconciliation. (https://github.com/acdlite/react-fiber-architecture)
+6. Tailwind and Props in react
+7. Problem on counter
+8. Project: background changer
+9.
+```
