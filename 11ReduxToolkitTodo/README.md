@@ -8,7 +8,7 @@ Then create a file store in app folder.(Choice your where you want to store)
 - first: Make a store = configureStore({obj}) === Most of the things are object in configureStore.
 - Second: Make a reducer, but in redux-toolkit, this is little bit different. We naming a Slices
 
-A feture folder: inside in login, todo feture etc.
+A feture folder: Where login, todo feture etc are lies.
 - We create a todoSlice.js
 - nanoid: to generate unique id's
 - Then we create a initialState = {} or []. How does store look like in its initial state. 
